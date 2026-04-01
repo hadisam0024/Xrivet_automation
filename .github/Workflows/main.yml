@@ -22,5 +22,5 @@ jobs:
 
       - name: Start AI Bot
         env:
-          FIREBASE_URL: ${{ https://whatsappagent-709c9-default-rtdb.firebaseio.com}}
+          FIREBASE_URL: ${{ secrets.FIREBASE_URL }}
         run: npm start
